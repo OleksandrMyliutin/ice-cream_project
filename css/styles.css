@@ -1,1 +1,69 @@
-/* Your styles here */
+/* heder-style */
+.header{
+    background-color: rgba(255, 184, 202, 1);
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-container-header-hero{
+    margin-inline: 16px;
+    min-width: 1200px;
+}
+.list-menu{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.list-menu .nav-list{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+#active {
+    color: #d41443;
+}
+
+.menu-btn{
+    border-radius: 22px;
+    min-width: 159px;
+    height: 44px;
+    background: #fff;
+    
+}
+
+.style-btn{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #d41443;
+}
+
+.btn-cont{
+    display: block;
+    margin-top: 50px;
+}
+/* the end of header-style */
+
+/* Hero section */
+
+.hero{
+    background-color: rgba(255, 184, 202, 1);
+    background-image: url(../images/botle_milk.png),
+            url(../images/ice-cream.png),
+            url(../images/ice-cream_girl.png),
+            url(../images/Ellipse\ 3.png);
+        background-repeat: no-repeat;
+        background-position:
+        bottom 60px left 56px,
+        bottom right 368px,
+        bottom right 56px,
+        top 54px right 189px,
+        bottom 76px left 557px;
+        height: 664px;
+}
+
+/* the end of hero section */
