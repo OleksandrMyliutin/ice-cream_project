@@ -23,17 +23,84 @@
     />
     <link rel="stylesheet" href="./css/page.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
     <header class="header">
       <div class="section-container">
-        Test oleksandr-head-branch Test2 head-branch
+        <nav class="header-nav">
+          <a href="./index.html">
+            <svg>
+              <use
+                href="./images/ice-cream-logo.svg#icon-Ice-cream"
+              ></use>
+            </svg>
+          </a>
+          <ul class="header-list-menu">
+            <li>
+              <a id="active" class="nav-list" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li><a class="nav-list" href="">About us</a></li>
+            <li>
+              <a class="nav-list" href="">How it’s made?</a>
+            </li>
+            <li><a class="nav-list" href="">Our products</a></li>
+            <li><a class="nav-list" href="">Contact</a></li>
+          </ul>
+          <div class="header-btn-cont">
+            <button class="menu-btn style-btn">Buy now ></button>
+          </div>
+        </nav>
       </div>
     </header>
-
     <section class="hero">
-      <div class="section-container">
-        <!-- Your code here -->
+      <div class="section-container hero-container">
+        <div class="container-h1-img-position">
+          <h1 class="hero-text-style">
+            ice cream made with
+            <span class="passion-style">passion</span>
+          </h1>
+          <div>
+            <img
+              class="img-hero"
+              src="./images/Group 50.png"
+              alt="symbol-ellipse"
+            />
+            <img
+              class="img-hero"
+              src="./images/Group 23.png"
+              alt="symbol-ellipse"
+            />
+          </div>
+        </div>
+        <div class="btn-hero-position">
+          <button
+            id="products"
+            class="btn-hero-product btn-hero-text-style-one"
+          >
+            Products
+          </button>
+          <button
+            id="how-it's-made"
+            class="btn-hero-how-made btn-hero-text-style-two"
+          >
+            How it’s made?
+          </button>
+        </div>
+        <div class="container-hero-text-position">
+          <p class="text-hero-position">
+            Indulge in a scoop of ice cream made with passion and
+            treat your taste buds to an unforgettable experience!
+          </p>
+          <div class="circle-hero-button">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
       </div>
     </section>
 
