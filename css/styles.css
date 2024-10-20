@@ -74,10 +74,10 @@
     url(../images/Ellipse\ 3.png);
   background-repeat: no-repeat;
   background-position:
-    bottom 60px left 56px,
-    bottom right 368px,
-    bottom right 56px,
-    bottom 85px right 200px;
+    bottom 60px left 140px,
+    bottom right 460px,
+    bottom right 130px,
+    bottom 85px right 240px;
   height: 730px;
   background-size: auto, 236px 600px, auto, 564px 564px;
 }
@@ -149,7 +149,7 @@
 .container-hero-text-position {
   position: absolute;
   bottom: 90px;
-  left: 250px;
+  left: 360px;
 }
 
 .text-hero-position {
