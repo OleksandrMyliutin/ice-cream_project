@@ -89,7 +89,6 @@
 .container-h1-img-position {
   display: flex;
   justify-content: space-between;
-
 }
 
 .hero-text-style {
@@ -155,6 +154,7 @@
   bottom: 90px;
   left: 220px;
 }
+/* Текст який знаходиться біля молока */
 
 .text-hero-position {
   max-width: 175px;
