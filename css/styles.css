@@ -189,7 +189,9 @@
 
 /* Your styles here */
 
-.reviews-section {
+/* Reviews section */
+
+.reviews {
   margin-top: -88px;
 }
 
@@ -300,3 +302,5 @@
   gap: 18px;
   justify-content: center;
 }
+
+/* end of Reviews section */
