@@ -1,3 +1,4 @@
+/* Section FOOTER */
 
 .locations {
   display: flex;
@@ -213,3 +214,5 @@ footer strong {
 .iconf_link:focus {
   background-color: #d41443;
 }
+
+/* End of section FOOTER */
