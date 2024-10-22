@@ -7,10 +7,7 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Icecream</title>
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="preconnect"
       href="https://fonts.gstatic.com"
@@ -24,25 +21,87 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/page.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
-      href="./css/page.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
   </head>
   <body>
     <header class="header">
       <div class="section-container">
-        <!-- Your code here -->
+        <nav class="header-nav">
+          <a href="./index.html">
+            <svg>
+              <use
+                href="./images/ice-cream-logo.svg#icon-Ice-cream"
+              ></use>
+            </svg>
+          </a>
+          <ul class="header-list-menu">
+            <li>
+              <a id="active" class="nav-list" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li><a class="nav-list" href="">About us</a></li>
+            <li>
+              <a class="nav-list" href="">How it’s made?</a>
+            </li>
+            <li><a class="nav-list" href="">Our products</a></li>
+            <li><a class="nav-list" href="">Contact</a></li>
+          </ul>
+          <div class="header-btn-cont">
+            <button class="menu-btn style-btn">Buy now ></button>
+          </div>
+        </nav>
       </div>
     </header>
 
     <section class="hero">
-      <div class="section-container">
-        <!-- Your code here -->
+      <div class="section-container hero-container">
+        <div class="container-h1-img-position">
+          <h1 class="hero-text-style">
+            ice cream made with
+            <span class="passion-style">passion</span>
+          </h1>
+          <div>
+            <img
+              class="img-hero"
+              src="./images/Group 50.png"
+              alt="symbol-ellipse"
+            />
+            <img
+              class="img-hero"
+              src="./images/Group 23.png"
+              alt="symbol-ellipse"
+            />
+          </div>
+        </div>
+        <div class="btn-hero-position">
+          <button
+            id="products"
+            class="btn-hero-product btn-hero-text-style-one"
+          >
+            Products
+          </button>
+          <button
+            id="how-it's-made"
+            class="btn-hero-how-made btn-hero-text-style-two"
+          >
+            How it’s made?
+          </button>
+        </div>
+        <div class="container-hero-text-position">
+          <p class="text-hero-position">
+            Indulge in a scoop of ice cream made with passion and
+            treat your taste buds to an unforgettable experience!
+          </p>
+          <div class="circle-hero-button">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -60,62 +119,229 @@
 
     <section class="reviews">
       <div class="section-container">
-        <!-- Your code here *************************************************** -->
+        <ul class="reviews-showcase">
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/two-green-ice-cream-on-a-stick.jpg"
+              alt="Two green ice cream on a stick, nicely served on a plate and sprinkled with petals"
+              width="138"
+              height="138"
+            />
+          </li>
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/light-pink-ice-cream-cone-in-arm.jpg"
+              alt="A white-pink ice cream cone in arm"
+              width="138"
+              height="138"
+            />
+          </li>
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/six-light-pink-ice-cream-with-berry-pieces.jpg"
+              alt="Six light pink ice cream with berry pieces"
+              width="138"
+              height="138"
+            />
+          </li>
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/colored-ice-cream-cones.jpg"
+              alt="Ice cream cones of different colors, decorated with berries, petals, leaves"
+              width="283"
+              height="283"
+            />
+          </li>
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/woman-enjoying-ice-cream.jpg"
+              alt="A beautiful woman enjoying ice cream cone"
+            />
+          </li>
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/decorating-ice-cream-with-blueberry.jpg"
+              alt="Decoration of a glass bowl, full of ice cream with berries"
+              width="138"
+              height="138"
+            />
+          </li>
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/red-ice-cream-cone-in-arm.jpg"
+              alt="Red ice cream cone in arm"
+              width="138"
+              height="138"
+            />
+          </li>
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/dog-licking-ice-cream.jpg"
+              alt="A doc licking ice cream"
+              width="138"
+              height="138"
+            />
+          </li>
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/coffee-ice-cream.jpg"
+              alt="A coffee ice cream in a glass with tube"
+              width="138"
+              height="138"
+            />
+          </li>
+          <li class="reviews-showcase-item">
+            <img
+              class="reviews-showcase-image"
+              src="./images/donut-ice-cream.jpg"
+              alt="A donut ice cream, lying on a glass jar of milk"
+              width="138"
+              height="138"
+            />
+          </li>
+        </ul>
+
+        <ul class="reviews-list">
+          <li class="reviews-item">
+            <img
+              src="./images/emily.jpg"
+              alt="Emily"
+              class="review-ava"
+              width="85"
+              height="85"
+            />
+            <div class="review-bg-color-box">
+              <div class="review-bg-image-box">
+                <p class="review-text">
+                  <svg
+                    class="review-icon-quotes"
+                    width="54"
+                    height="40"
+                  >
+                    <use
+                      href="./images/icons.svg#icon-quotes"
+                    ></use>
+                  </svg>
+                  I love visiting your cafe. You prepare the most
+                  delicious ice cream in Los Angeles! In
+                  addition, you have beautiful serving, cozy
+                  atmosphere and polite staff.
+                </p>
+              </div>
+            </div>
+
+            <svg class="review-icon-dots" width="32" height="4">
+              <use href="./images/icons.svg#icon-dots"></use>
+            </svg>
+            <p class="review-author">Emily, Los Angeles</p>
+          </li>
+        </ul>
+
+        <ul class="reviews-controls">
+          <li class="reviews-controls-item">
+            <button class="reviews-button" type="button">
+              <svg
+                class="review-icon-dots"
+                width="12"
+                height="12"
+              >
+                <use
+                  href="./images/icons.svg#icon-active-review"
+                ></use>
+              </svg>
+            </button>
+          </li>
+          <li class="reviews-controls-item">
+            <button class="reviews-button" type="button">
+              <svg
+                class="review-icon-dots"
+                width="12"
+                height="12"
+              >
+                <use
+                  href="./images/icons.svg#icon-review-button"
+                ></use>
+              </svg>
+            </button>
+          </li>
+          <li class="reviews-controls-item">
+            <button class="reviews-button" type="button">
+              <svg
+                class="review-icon-dots"
+                width="12"
+                height="12"
+              >
+                <use
+                  href="./images/icons.svg#icon-review-button"
+                ></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
       </div>
     </section>
 
     <section class="locations">
-      <div class="section-container">
-        <div class="location-card">
-          <div class="location-type cafe">CAFE</div>
-          <h2 class="card-title"><strong>Chicago</strong></h2>
-          <p class="discription">
-            Handcrafted coffee, baked goods, and premium ice cream.
-          </p>
-          <div class="hours">
-            <p class="ttime"><strong>Monday – Friday</strong><br /></p>
-            <p class="time">06:00 AM – 10:00 PM</p>
-            <p class="ttime"><strong>Saturday – Sunday</strong><br /></p>
-            <p class="time">08:00 AM – 16:00 PM</p>
-          </div>
-          <div class="box-loc">
-            <p class="connection">+61(0) 383 766 284</p>
-            <p class="connection">noreply@envato.com</p>
-          </div>
+      <div class="location-card">
+        <div class="location-type cafe">CAFE</div>
+        <h2 class="card-title"><strong>Chicago</strong></h2>
+        <p class="discription">
+          Handcrafted coffee, baked goods, and premium ice cream.
+        </p>
+        <div class="hours">
+          <p class="ttime"><strong>Monday – Friday</strong><br /></p>
+          <p class="time">06:00 AM – 10:00 PM</p>
+          <p class="ttime"><strong>Saturday – Sunday</strong><br /></p>
+          <p class="time">08:00 AM – 16:00 PM</p>
         </div>
-        <div class="location-card">
-          <div class="location-type food-truck">FOOD TRUCK</div>
-          <h2 class="card-title"><strong>Los Angeles</strong></h2>
-          <p class="discription">
-            Fusion cuisine and refreshing ice cream made with passion.
-          </p>
-          <div class="hours">
-            <p class="ttime"><strong>Monday – Friday</strong><br /></p>
-            <p class="time">08:00 AM – 10:00 PM</p>
-            <p class="ttime"><strong>Saturday – Sunday</strong><br /></p>
-            <p class="time">08:00 AM – 03:00 PM</p>
-          </div>
-          <div class="box-loc">
-            <p class="connection">+61 (0) 383 766 284</p>
-            <p class="connection">noreply@envato.com</p>
-          </div>
+        <div class="box-loc">
+          <p class="connection">+61(0) 383 766 284</p>
+          <p class="connection">noreply@envato.com</p>
         </div>
-        <div class="location-card">
-          <div class="location-type cafe">CAFE</div>
-          <h2 class="card-title"><strong>New York </strong></h2>
-          <p class="discription">
-            Specialty teas, artisanal pastries, mouth-watering ice cream.
-          </p>
-          <div class="hours">
-            <p class="ttime"><strong>Monday – Friday</strong><br /></p>
-            <p class="time">08:00 AM – 10:00 PM</p>
-            <p class="ttime"><strong>Saturday – Sunday</strong><br /></p>
-            <p class="time">08:00 AM – 03:00 PM</p>
-          </div>
-          <div class="box-loc">
-            <p class="connection">+61 (0) 383 766 284</p>
-            <p class="connection">noreply@envato.com</p>
-          </div>
+      </div>
+
+      <div class="location-card">
+        <div class="location-type food-truck">FOOD TRUCK</div>
+        <h2 class="card-title"><strong>Los Angeles</strong></h2>
+        <p class="discription">
+          Fusion cuisine and refreshing ice cream made with passion.
+        </p>
+        <div class="hours">
+          <p class="ttime"><strong>Monday – Friday</strong><br /></p>
+          <p class="time">08:00 AM – 10:00 PM</p>
+          <p class="ttime"><strong>Saturday – Sunday</strong><br /></p>
+          <p class="time">08:00 AM – 03:00 PM</p>
+        </div>
+        <div class="box-loc">
+          <p class="connection">+61 (0) 383 766 284</p>
+          <p class="connection">noreply@envato.com</p>
+        </div>
+      </div>
+
+      <div class="location-card">
+        <div class="location-type cafe">CAFE</div>
+        <h2 class="card-title"><strong>New York </strong></h2>
+        <p class="discription">
+          Specialty teas, artisanal pastries, mouth-watering ice cream.
+        </p>
+        <div class="hours">
+          <p class="ttime"><strong>Monday – Friday</strong><br /></p>
+          <p class="time">08:00 AM – 10:00 PM</p>
+          <p class="ttime"><strong>Saturday – Sunday</strong><br /></p>
+          <p class="time">08:00 AM – 03:00 PM</p>
+        </div>
+        <div class="box-loc">
+          <p class="connection">+61 (0) 383 766 284</p>
+          <p class="connection">noreply@envato.com</p>
         </div>
       </div>
     </section>
@@ -137,43 +363,22 @@
         <div class="social-networks">
           <ul class="icon_listf">
             <li class="icon-first">
-              <a
-                class="iconf_link"
-                href="#"
-              >
-                <svg
-                  class="iconf"
-                  width="34"
-                  height="34"
-                >
+              <a class="iconf_link" href="#">
+                <svg class="iconf" width="34" height="34">
                   <use href="./icons.svg#icon-Github"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-first">
-              <a
-                class="iconf_link"
-                href="#"
-              >
-                <svg
-                  class="iconf"
-                  width="34"
-                  height="34"
-                >
+              <a class="iconf_link" href="#">
+                <svg class="iconf" width="34" height="34">
                   <use href="./icons.svg#icon-telegram"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-first">
-              <a
-                class="iconf_link"
-                href="#"
-              >
-                <svg
-                  class="iconf"
-                  width="34"
-                  height="34"
-                >
+              <a class="iconf_link" href="#">
+                <svg class="iconf" width="34" height="34">
                   <use href="./icons.svg#icon-Facebook"></use>
                 </svg>
               </a>
