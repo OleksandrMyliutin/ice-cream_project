@@ -1,0 +1,44 @@
+[33mcommit 4c5cea72c33c188d66989f68b63c7b3377cf55d8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfooter[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Oleksandr Mil <oleksandr.myliutin@gmail.com>
+Date:   Tue Oct 15 19:33:42 2024 +0300
+
+    deleate test code
+
+[33mcommit 84b6f90b5f4aadeea45c7f4d16cc4ae7794250f0[m
+Merge: 62a6365 7a2a64e
+Author: Illia Liashko <129007848+Illia-L@users.noreply.github.com>
+Date:   Mon Oct 14 15:43:15 2024 +0300
+
+    Merge pull request #4 from OleksandrMyliutin/section-review
+    
+    test commit
+
+[33mcommit 7a2a64eeb8ca4a573345c882a7908508c0ed4c4a[m[33m ([m[1;31morigin/section-review[m[33m)[m
+Author: Illia Liashko <2275040@gmail.com>
+Date:   Mon Oct 14 15:37:25 2024 +0300
+
+    test commit
+
+[33mcommit 62a63650a7ee4dede93b8f535d154b9107bf8056[m
+Author: Oleksandr Mil <oleksandr.myliutin@gmail.com>
+Date:   Sun Oct 13 18:15:41 2024 +0300
+
+    test 2
+
+[33mcommit 9500a698f58b42a6f0986c5ce6d64b2bf01e87a9[m
+Author: Oleksandr <123753201+OleksandrMyliutin@users.noreply.github.com>
+Date:   Sun Oct 13 18:14:46 2024 +0300
+
+    Update README.md
+
+[33mcommit bde8d9af39756417d694938c6d1c5ff31e507eb9[m
+Author: Oleksandr Mil <oleksandr.myliutin@gmail.com>
+Date:   Sun Oct 13 18:14:02 2024 +0300
+
+    Added all the source files
+
+[33mcommit 90ca0214d15993056054a0677c81031832448db5[m
+Author: Oleksandr <123753201+OleksandrMyliutin@users.noreply.github.com>
+Date:   Sun Oct 13 18:09:00 2024 +0300
+
+    Initial commit
