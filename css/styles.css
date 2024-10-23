@@ -1,65 +1,5 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-a:link,
-a:hover,
-a:focus,
-a:active,
-a:visited {
-  display: inline-block;
-  font-family: inherit;
-  font-size: inherit;
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  all: unset; /* Remove all default styles */
-  display: inline-block; /* Ensure it behaves like a button */
-  cursor: pointer; /* Show pointer on hover */
-  background: transparent; /* Transparent background */
-  border: none; /* Remove border */
-  font-family: inherit; /* Inherit font from parent */
-  font-size: inherit; /* Inherit font size from parent */
-  color: inherit; /* Inherit text color */
-  text-align: center; /* Center text */
-  line-height: inherit; /* Inherit line height */
-  text-decoration: none; /* Remove any text decoration */
-  outline: none; /* Remove default outline */
-  appearance: none; /* Remove platform-specific styling */
-  box-shadow: none; /* Remove shadow */
-}
-
-ul,
-ol {
-  list-style-type: none;
-}
-/* #endregion */
-
-.section-container {
-  margin-inline: auto;
-  width: 1200px;
-}
-
-body {
-  font-family: "DM Sans", sans-serif;
-  background: #fff5f6;
-  color: #333;
-  text-align: center;
-  padding: 20px;
+footer {
+  background: linear-gradient(to bottom, #ffffff 30%, #fff5f6 100%);
 }
 
 .locations {
@@ -135,15 +75,19 @@ body {
 }
 
 .cafe {
-  background-color: #fda085;
+  background-color: #f0d1a5;
 }
 
 .food-truck {
-  background-color: #a0d468;
+  background-color: #c2e297;
 }
 
 .cta-buttons {
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
 }
 
 .connection {
@@ -161,7 +105,7 @@ body {
 
 .cta-button {
   background-color: #d41443;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
@@ -185,12 +129,6 @@ body {
   background-color: #d41342;
 }
 
-footer {
-  margin-top: 20px;
-  font-size: 1.2em;
-  color: #f86b81;
-}
-
 footer strong {
   font-size: 1.5em;
 }
@@ -203,10 +141,12 @@ footer strong {
 }
 
 .box_footer {
-  margin-right: 200px;
+  margin-right: 30%;
+  padding-bottom: 60px;
 }
 
 .ice-cream-made {
+  font-family: "Titan One", sans-serif;
   font-weight: 400;
   font-size: 30px;
   letter-spacing: 0.04em;
@@ -215,6 +155,7 @@ footer strong {
 }
 
 .witch-passion {
+  font-family: "Titan One", sans-serif;
   font-weight: 400;
   font-size: 58px;
   letter-spacing: 0.06em;
@@ -231,7 +172,6 @@ footer strong {
   display: block;
   justify-self: flex-end;
   flex-direction: column;
-  margin-left: 26px;
 }
 
 .contactf {
@@ -240,6 +180,9 @@ footer strong {
 
 .box-contactf {
   display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 40px;
 }
 
 .icon-first {
@@ -252,6 +195,7 @@ footer strong {
   display: flex;
   gap: 30px;
   justify-content: flex-end;
+  margin-bottom: 40p;
 }
 
 .iconf_link {
