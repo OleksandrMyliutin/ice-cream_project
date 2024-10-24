@@ -383,4 +383,50 @@ border-radius: 22px;
 width: 176px;
 height: 44px;
 background: #fff;
+cursor: pointer;
+}
+.how-made-div {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+.how-made-ula {
+  display: flex;
+  gap: 120px;
+}
+.how-made-item {
+font-family: "Titan One", sans-serif;
+font-weight: 400;
+font-size: 58px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #d41443;
+position: relative;
+margin-bottom: 16px;
+}
+.how-made-item-p {
+font-family: "DM Sans", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 176%;
+letter-spacing: 0.02em;
+color: #000;
+}
+.first {
+  width: 288px;
+}
+.second {
+  width: 317px;
+}
+.three {
+  width: 288px;
+}
+.how-made-ula-icon {
+  display: flex;
+}
+.icon-fill {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  fill: #FFA5BA;
 }
