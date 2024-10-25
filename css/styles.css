@@ -1,5 +1,5 @@
 footer {
-  background: linear-gradient(to bottom, #ffffff 30%, #fff5f6 100%);
+  background: #fff5f6;
 }
 
 .locations {
@@ -143,6 +143,7 @@ footer strong {
 .box_footer {
   margin-right: 30%;
   padding-bottom: 60px;
+  max-width: 474;
 }
 
 .ice-cream-made {
