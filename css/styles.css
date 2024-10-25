@@ -1,3 +1,5 @@
+
+/* #region HEADER */
 /* heder-style */
 .header {
   position: absolute;
@@ -60,7 +62,10 @@
 }
 
 /* the end of header-style */
+/* #endregion */
 
+
+/* #region HERO */
 /* Hero section */
 
 .hero {
@@ -189,141 +194,278 @@
 }
 
 /* the end of hero section */
+/* #endregion */
 
 
+/* #region PRODUCTS */
 /* Your styles here */
-body {
+.products-tittle {
   font-family: "Titan One", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-size: 58px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #d41443;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.products-tittle-part {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffa5ba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  padding-top: 60px;
+}
+
+.products-list {
+  display: flex;
+  gap: 32px;
+}
+
+.products-item {
+  position: relative;
+  width: 368px;
+  height: 796px;
+}
+
+.products-img:hover {
+  border: 1px solid #000;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.products-img {
+  position: absolute;
+  top: 0;
+}
+
+.ice-cream-box {
+  border-radius: 24px;
+  width: 368px;
+  height: 535px;
+  background: #ffb8ca;
+  display: block;
+  margin-top: 261px;  
+}
+
+.ice-coffee-box {
+  border-radius: 24px;
+  width: 368px;
+  height: 535px;
+  background: #f0d1a5;
+  display: block;
+  margin-top: 261px;
+}
+
+.milkshakes-box {
+  border-radius: 24px;
+  width: 368px;
+  height: 535px;
+  background: #c2e297;
+  display: block;
+  margin-top: 261px;
 }
 
 
-img {
-display:block;
+
+.products-subtittle {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding-top: 165px;
+  margin-bottom: 32px;
+
 }
 
-h1, h2, h3, h4, h5, h6, p {
-margin-bottom: 0;
-margin-top: 0;
+.products-icon-list {
+  margin-bottom: 32px;
+  gap: 4px;
+  width: 25px;
+  height: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-ul {
-list-style-type: none;
-margin-bottom: 0;
-margin-top: 0;
-padding-left: 0;
-}
-
-.section-container {
-width: 1200px;
-padding-left: 16px;
-padding-right: 16px;
-margin: 0 auto;
-}
-
-.section-title {
-margin-bottom: 20px;
-}
-
-.title-quality {
-font-weight: 400;
-font-size: 30px;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-text-align: center;
-color: #ffa5ba;
-}
-
-.title {
-font-weight: 400;
-font-size: 58px;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-text-align: center;
-color: #d41443;
-}
-
-.product-item-title {
-font-weight: 400;
-font-size: 30px;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-text-align: center;
-color: #fff;
-}
-
-.product-list {
-display:flex;
-gap:32px;
-height: 796px;
+.products-icon-ellipse {
+  fill: #fff;
 }
 
 
-.product-item {
-position: relative;
-width: calc((100% - 32px - 32px - 32px) / 3);
+.products-ice-cream-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.76;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 304px;
+  height: 134px;
+  }
+
+.arrow-link {
+  margin-left: 164px;
+  margin-right: 164px;
+  margin-bottom: 60px;
 }
 
-.product-pic {
-position: absolute;
-bottom: 402px;
+.img-arrow {
+  border-radius: 50%;  
 }
 
-.product-dots {
-fill: rgba(255, 255, 255, 1);
-}
+/* #endregion */
 
-.product-item-icecream {
-border-radius: 24px;
-width: 368px;
-text-align: center;
-background: #ffb8ca;
-margin-top: 261px;
-}
 
-.product-item-icecoffee {
-border-radius: 24px;
-width: 368px;
-text-align: center;
-background: #f0d1a5;
-margin-top: 261px;
-}
+/* #region MADE */
+/* how it’s made? */
+.made {
+  background: #fff5f6;
+  }
+  /* .section-container {} */
+  
+  .made-hidden {
+    padding: 60px ;
+  }
+  
+  .hidden-made-first {
+    font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffa5ba;
+  }
+  
+  .hidden-made-second {
+    font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 58px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #d41443;
+  }
+  .made-sec {
+    background-image: url(../images/sectionbg.png);
+    width: 1200px;
+    position: relative;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+  
+  .made-list {
+  display: flex;
+  align-items: center;
+  }
+  
+  .list-cow {
+    margin-right: 100px;
+  }
+  
+  .p-how-made {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 176%;
+  letter-spacing: 0.04em;
+  color: #000;
+  max-width: 400px;
+  margin-bottom: 32px;
+  }
+  
+  .p-how-made-second {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 194%;
+  letter-spacing: 0.04em;
+  color: #907e82;
+  max-width: 400px;
+  margin-bottom: 40px;
+  }
+  
+  .btn-read-more {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #d41443;
+  border-radius: 22px;
+  width: 176px;
+  height: 44px;
+  background: #fff;
+  cursor: pointer;
+  }
+  .how-made-div {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+  }
+  .how-made-ula {
+    display: flex;
+    gap: 120px;
+  }
+  .how-made-item {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 58px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+  position: relative;
+  margin-bottom: 16px;
+  }
+  .how-made-item-p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 176%;
+  letter-spacing: 0.02em;
+  color: #000;
+  }
+  .first {
+    width: 288px;
+  }
+  .second {
+    width: 317px;
+  }
+  .three {
+    width: 288px;
+  }
+  .how-made-ula-icon {
+    display: flex;
+  }
+  .icon-fill {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    fill: #FFA5BA;
+  }
 
-.product-item-milkshakes {
-border-radius: 24px;
-width: 368px;
-text-align: center;
-background: #c2e297;  
-margin-top: 261px;  
-}
+/* #endregion */
 
-.product-item-title {
-font-family: var(--second-family);
-font-weight: 400;
-font-size: 30px;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-text-align: center;
-color: #fff;
-padding-top: 165px;
-padding-bottom: 32px;
-}
 
-.product-item-text {
-font-weight: 700;
-font-size: 16px;
-line-height: 176%;
-letter-spacing: 0.04em;
-text-align: center;
-color: #fff;
-padding: 32px;
-}
-
-.product-arrow {
-padding-bottom: 60px;
-}
-
+/* #region REVIEWS */
 /* Reviews section */
 
 .reviews {
@@ -439,9 +581,15 @@ padding-bottom: 60px;
 }
 
 /* end of Reviews section */
+/* #endregion */
 
 
+/* #region FOOTER */
 /* start section FOOTER */
+footer {
+  background: linear-gradient(to bottom, #ffffff 30%, #fff5f6 100%);
+}
+
 .locations {
   display: flex;
   justify-content: space-around;
@@ -515,15 +663,19 @@ padding-bottom: 60px;
 }
 
 .cafe {
-  background-color: #fda085;
+  background-color: #f0d1a5;
 }
 
 .food-truck {
-  background-color: #a0d468;
+  background-color: #c2e297;
 }
 
 .cta-buttons {
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
 }
 
 .connection {
@@ -541,7 +693,7 @@ padding-bottom: 60px;
 
 .cta-button {
   background-color: #d41443;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
@@ -565,12 +717,6 @@ padding-bottom: 60px;
   background-color: #d41342;
 }
 
-footer {
-  margin-top: 20px;
-  font-size: 1.2em;
-  color: #f86b81;
-}
-
 footer strong {
   font-size: 1.5em;
 }
@@ -583,10 +729,12 @@ footer strong {
 }
 
 .box_footer {
-  margin-right: 200px;
+  margin-right: 30%;
+  padding-bottom: 60px;
 }
 
 .ice-cream-made {
+  font-family: "Titan One", sans-serif;
   font-weight: 400;
   font-size: 30px;
   letter-spacing: 0.04em;
@@ -595,6 +743,7 @@ footer strong {
 }
 
 .witch-passion {
+  font-family: "Titan One", sans-serif;
   font-weight: 400;
   font-size: 58px;
   letter-spacing: 0.06em;
@@ -611,7 +760,6 @@ footer strong {
   display: block;
   justify-self: flex-end;
   flex-direction: column;
-  margin-left: 26px;
 }
 
 .contactf {
@@ -620,6 +768,9 @@ footer strong {
 
 .box-contactf {
   display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 40px;
 }
 
 .icon-first {
@@ -632,6 +783,7 @@ footer strong {
   display: flex;
   gap: 30px;
   justify-content: flex-end;
+  margin-bottom: 40p;
 }
 
 .iconf_link {
@@ -657,3 +809,4 @@ footer strong {
   background-color: #d41443;
 }
 /* end section FOOTER */
+/* #endregion */
