@@ -203,7 +203,6 @@ margin: 0 auto;
 .section-products {
   font-family: "Titan One", sans-serif;
   font-weight: 400;
-  font-style: normal;
 }
 
 .section-title {
@@ -292,7 +291,6 @@ background: #c2e297;
 }
 
 .product-item-title {
-font-family: DM Sans;
 font-weight: 400;
 font-size: 30px;
 letter-spacing: 0.04em;
@@ -304,7 +302,7 @@ padding-bottom: 32px;
 }
 
 .product-item-text {
-font-family: var(--font-family);
+font-family: "DM Sans", sans-serif;
 font-weight: 700;
 font-size: 16px;
 line-height: 176%;
@@ -314,10 +312,9 @@ color: #fff;
 padding: 32px;
 }
 
-
 .product-arrow {
-padding-bottom: 60px;
-stroke: #000000;
+  display: flex;
+  margin: 0 auto;
 }
 
 /* Reviews section */
