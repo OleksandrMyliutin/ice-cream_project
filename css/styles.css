@@ -32,6 +32,8 @@ img {
     background: #ffb8ca;
     padding-top: 37px;
     padding-bottom: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header-navigation {
@@ -43,8 +45,8 @@ img {
     display: flex;
     align-items: center;
     margin-right: 128px;
-    min-width: 199px;
-        height: 50px;
+    width: 199px;
+    height: 50px;
 }
 
 .logo-ellipse {
@@ -56,7 +58,6 @@ img {
 .logo-ice {
     display: flex;
     align-items: center;
-    margin-right: 141px;
 }
 
 .logo-ice-link {
@@ -66,9 +67,13 @@ img {
 }
 
 .header-list {
-     display: flex;
-     align-items: center;
-     gap: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 541px;
+    height: 21px;
+    gap: 34px;
+    margin-right: 141px;
 }
 
 .header-home {
@@ -77,11 +82,9 @@ img {
 }
 
 .header-list-link {
-    min-width: 541px;
-    height: 21px;
-    margin-right: 141px;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #fff
 }
 
@@ -99,7 +102,7 @@ img {
 }
 
 .list-button-item {
-    margin-left: auto;
+    
 }
 
 .list-button {
@@ -119,15 +122,18 @@ img {
 }
 
 .section-container {
-    min-width: 1168px;
     max-height: 664px;
     padding-left: 16px;
     padding-right: 16px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero {
     background: #ffb8ca;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero-text {
@@ -186,12 +192,6 @@ img {
 
 .hero-button-how-it:hover {
     color: #ECEBEB;
-}
-
-.hero-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .hero-milk-photo {
@@ -268,9 +268,9 @@ img {
 }
 
 .hero-icons {
-    position: absolute;
-    right: 16px;
-    top: 152px;
+    display: block;
+    margin-top: 68px;
+
     
 }
 
@@ -319,6 +319,4 @@ img {
 .hero-girl-ice {
     z-index: 2;
     position: absolute;
-    bottom: 95px;
-    right: 16px;
 }
