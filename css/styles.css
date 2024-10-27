@@ -1,1 +1,324 @@
-/* Your styles here */
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.header {
+    background: #ffb8ca;
+    padding-top: 37px;
+    padding-bottom: 60px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 128px;
+    min-width: 199px;
+        height: 50px;
+}
+
+.logo-ellipse {
+    margin-right: 15px;
+    border-radius: 100%;
+    fill: #fff;
+}
+
+.logo-ice {
+    display: flex;
+    align-items: center;
+    margin-right: 141px;
+}
+
+.logo-ice-link {
+    fill: #d41443;
+    text-decoration: underline;
+    gap: 6px;
+}
+
+.header-list {
+     display: flex;
+     align-items: center;
+     gap: 34px;
+}
+
+.header-home {
+    color: #d41443;
+    margin-right: 35px;
+}
+
+.header-list-link {
+    min-width: 541px;
+    height: 21px;
+    margin-right: 141px;
+    display: flex;
+    align-items: center;
+    color: #fff
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+
+.header-link-item {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.list-button-item {
+    margin-left: auto;
+}
+
+.list-button {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #d41443;
+    border-radius: 22px;
+    min-width: 159px;
+    height: 44px;
+    background: #fff;
+    
+}
+
+.list-button:hover {
+    color: #ECEBEB;
+}
+
+.section-container {
+    min-width: 1168px;
+    max-height: 664px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: #ffb8ca;
+}
+
+.hero-text {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 24px;
+    max-width: 277px;
+}
+
+.hero-text-pas {
+    font-size: 58px;
+    line-height: 0.905;
+    color: #d41443;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.hero-button {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    padding: 11px 22px;
+    border: 1px solid #d41443;
+    border-radius: 20px;
+    background: #d41443;
+}
+
+.hero-button-it {
+    color: #ffffff;
+}
+
+.hero-button-how {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #d41443;
+    padding: 11px 22px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.hero-button-how-it {
+    color: #d41443;
+}
+
+.hero-button-how-it:hover {
+    color: #ECEBEB;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-milk-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-milk {
+    max-width: 213px;
+    height: 216px;
+    margin-right: 0;
+}
+
+.hero-milk-photo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgba(255, 216, 228, 0.08);
+    margin-bottom: 60px;
+}
+
+.hero-link {
+    display: block;
+}
+
+.hero-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #fff;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.hero-arrow-right {
+    border-radius: 50%;
+    max-width: 26px;
+    height: 26px;
+}
+
+.hero-images {
+    position: relative;
+    width: 534px;
+    height: 534px;
+    z-index: 1;
+}
+
+.hero-icon-Ellipse-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    fill: #ffa5ba;
+    border: 1px solid transparent;
+    top: 54px;
+    left: 149.9px;
+    transform: translate(-54px, -149.9px);
+}
+
+.hero-big {
+    position: relative;
+    width: 236px;
+    height: 557px;
+}
+
+.hero-big-ice {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -25px;
+    border: 1px solid transparent;
+    left: 220px;
+}
+
+.hero-icons {
+    position: absolute;
+    right: 16px;
+    top: 152px;
+    
+}
+
+.hero-icon-1 {
+    width: 72px;
+    height: 77px;
+}
+
+.hero-icon-Ellipse-2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.hero-icon-16, .hero-icon-23 {
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 46px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #d41443;
+    
+}
+
+.hero-icon-text {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: #fff;
+    margin-top: 2px;
+}
+
+.hero-icon-2 {
+    width: 92px;
+    height: 76px;
+    margin-top: 15px;
+}
+
+.hero-girl {
+    width: 304px;
+    height: 241px;
+}
+
+.hero-girl-ice {
+    z-index: 2;
+    position: absolute;
+    bottom: 95px;
+    right: 16px;
+}
