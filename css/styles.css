@@ -1,42 +1,124 @@
-footer {
-  background: #fff5f6;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.locations {
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li:last-child {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:link,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  color: currentColor;
+  text-decoration: none;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* common */
+
+.container {
+  max-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+}
+
+/* footer */
+.through {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 40px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  background: #fff5f6;
 }
 
 .location-card {
   padding: 20px;
-  width: 30%;
   text-align: left;
   box-shadow: 0 8px 30px 0 rgba(212, 20, 67, 0.1);
   background: #fff;
 
   border-radius: 24px;
+  margin-bottom: 20px;
 }
 
 .location-type {
-  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
   border-radius: 5px;
-  color: white;
-  font-size: 0.9em;
-  margin-bottom: 10px;
-  display: inline-block;
-}
 
-.time {
-  color: #ffa5ba;
+  margin-bottom: 17px;
+  display: inline-block;
 }
 
 .ttime {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.86;
-  letter-spacing: 0.04em;
   color: #000;
+}
+
+.time {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  color: #ffa5ba;
 }
 
 .hours {
@@ -44,7 +126,7 @@ footer {
   flex-direction: column;
   align-items: row;
   justify-content: space-between;
-  gap: 12px;
+  gap: 8px;
 }
 
 .hours::before,
@@ -54,21 +136,29 @@ footer {
   stroke-width: 1px;
   background-color: #e1e1e1;
   content: "";
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .discription {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.83;
+  font-size: 12px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #907e82;
 }
 
+.connection {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #907e82;
+  cursor: pointer;
+}
+
 .card-title {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.86;
   letter-spacing: 0.04em;
   color: #000;
@@ -76,25 +166,75 @@ footer {
 
 .cafe {
   background-color: #f0d1a5;
+  width: 80px;
+  height: 16px;
 }
 
 .food-truck {
   background-color: #c2e297;
+  border-radius: 4px;
+  width: 130px;
+  height: 16px;
+}
+
+/* Кнопки */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.buttons a {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .cta-buttons {
-  margin: 20px 0;
-  display: flex;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 120px;
+  align-items: center; 
+   margin-bottom: 120px; */
 }
 
-.connection {
-  font-weight: 500;
+.cta-button {
+  background-color: #d41443;
+  color: #ffffff;
+  border: none;
+
+  margin-bottom: 10px;
+  font-size: 1em;
+  cursor: pointer;
+
+  border-radius: 22px;
+  width: 161px;
+  height: 44px;
+
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.83;
-  color: #907e82;
+  text-align: center;
+  color: #fff;
+}
+
+.cta-button-right {
+  background-color: #ffffff;
+  color: #d41443;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+
+  border: none;
+
+  border-radius: 22px;
+  width: 161px;
+  height: 44px;
+
+  font-size: 1em;
   cursor: pointer;
 }
 
@@ -103,54 +243,22 @@ footer {
   cursor: pointer;
 }
 
-.cta-button {
-  background-color: #d41443;
-  color: #ffffff;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 1em;
-  cursor: pointer;
-}
-
-.cta-button-right {
-  background-color: #ffffff;
-  color: #d41443;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 1em;
-  cursor: pointer;
-}
-
 .cta-button:hover {
   background-color: #d41342;
 }
 
-footer strong {
-  font-size: 1.5em;
-}
-
-.containerf {
-  display: flex;
-  align-content: space-between;
-  align-items: center;
-  padding: 20px 20px;
-}
+/* Контактна інформація */
 
 .box_footer {
-  margin-right: 30%;
-  padding-bottom: 60px;
-  max-width: 474;
+  padding-bottom: 40px;
+  max-width: 234px;
+  text-align: left;
 }
 
 .ice-cream-made {
   font-family: "Titan One", sans-serif;
   font-weight: 400;
-  font-size: 30px;
-  letter-spacing: 0.04em;
+  font-size: 18px;
   text-transform: uppercase;
   color: #ffa5ba;
 }
@@ -158,15 +266,15 @@ footer strong {
 .witch-passion {
   font-family: "Titan One", sans-serif;
   font-weight: 400;
-  font-size: 58px;
-  letter-spacing: 0.06em;
+  font-size: 34px;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #d41443;
 }
 
 .social-networks {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.86;
   letter-spacing: 0.02em;
   color: #d41443;
@@ -175,28 +283,16 @@ footer strong {
   flex-direction: column;
 }
 
-.contactf {
-  color: #000;
-}
-
-.box-contactf {
-  display: flex;
-  justify-content: flex-end;
-  align-items: end;
-  margin-top: 40px;
-}
-
 .icon-first {
-  width: 34px;
-  height: 34px;
+  width: 33px;
+  height: 32px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon_listf {
   display: flex;
-  gap: 30px;
+  gap: 28px;
   justify-content: flex-end;
-  margin-bottom: 40p;
 }
 
 .iconf_link {
@@ -220,4 +316,204 @@ footer strong {
 .iconf_link:hover,
 .iconf_link:focus {
   background-color: #d41443;
+}
+
+.box-contactf {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.86;
+  text-align: right;
+}
+
+.contactf {
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .through {
+    padding: 16px;
+  }
+
+  .locations {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    margin-bottom: 60px;
+  }
+
+  .location-type {
+    font-size: 16px;
+  }
+
+  .location-card {
+    margin-bottom: 0;
+  }
+
+  .ttime {
+    font-size: 14px;
+  }
+
+  .time {
+    font-size: 14px;
+  }
+
+  .hours {
+    gap: 12px;
+  }
+
+  .hours::before,
+  .hours::after {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .discription {
+    font-size: 14px;
+    line-height: 1.66;
+  }
+
+  .connection {
+    font-size: 14px;
+    line-height: 1.83;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .cafe {
+    width: 73px;
+    height: 28px;
+  }
+
+  .food-truck {
+    border-radius: 6px;
+    width: 138px;
+    height: 28px;
+  }
+
+  .cta-buttons {
+    margin-top: 0;
+  }
+
+  .cta-button {
+    margin-right: 14.5px;
+
+    width: 191px;
+  }
+
+  .cta-button-right {
+    width: 174px;
+  }
+
+  .containerf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .box_footer {
+    max-width: 340px;
+  }
+
+  .ice-cream-made {
+    font-size: 26px;
+    letter-spacing: 0.04em;
+  }
+
+  .witch-passion {
+    font-size: 48px;
+    letter-spacing: 0.06em;
+  }
+
+  .social-networks {
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: right;
+  }
+
+  .icon-first {
+    width: 34px;
+    height: 34px;
+  }
+
+  .icon_listf {
+    gap: 30px;
+  }
+
+  .box-contactf {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .ttime {
+    font-size: 16px;
+    letter-spacing: 0.04em;
+  }
+
+  .time {
+    font-size: 16px;
+  }
+
+  .discription {
+    font-size: 16px;
+    line-height: 1.83;
+  }
+
+  .connection {
+    font-size: 16px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .cafe {
+    border-radius: 6px;
+    width: 75px;
+  }
+
+  .cta-buttons {
+    margin-bottom: 120px;
+  }
+
+  .cta-button {
+    margin-right: 12px;
+    width: 198px;
+  }
+
+  .cta-button-right {
+    width: 168px;
+  }
+
+  .box_footer {
+    max-width: 474px;
+    padding: 0;
+    margin-bottom: 60px;
+  }
+
+  .ice-cream-made {
+    font-size: 30px;
+  }
+
+  .witch-passion {
+    font-size: 58px;
+  }
+
+  .social-networks {
+    font-size: 16px;
+  }
+
+  .box-contactf {
+    margin-bottom: 60px;
+  }
 }
